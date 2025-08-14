@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- add heading, adjust colour to #7d02a2 -->
+    <h1 style="color: #7d02a2;">Kyle's Teaching Portfolio - Contact Me</h1>
+    <!-- Navigation menu section -->
+     <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="teaching.html">Teaching Practice</a></li>
+            <li><a href="projects.html">Project Showcase</a></li>
+            <li><a href="worksamples.html">Samples of Work</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+        </ul>
+    </nav>
+    <!-- this is the main content area for the page, in line with Semantic HTML -->
+    <main>
+        <!-- This is the section for... -->
+         <section>
+            <style>
+                .flex-container{
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 20px;
+                    justify-content: space-between;
+                    margin-top: 20px;
+                }
+                .project-card {
+                    flex: 1 1 150px;
+                    background-color:#f5d5ff;
+                    border: 1px solid #7d02a2;
+                    padding: 15px;
+                    border-radius: 8px;
+                    box-shadow: 1px 2px 4px #7d02a2;
+                }
+                .project-card h3 {
+                    margin-top: 10px;
+                    font-size: 1.1rem;
+                    color: #7d02a2;
+                }
+                
+            </style>
+            <div class="flex-container">
+                <div class="project-card">
+                    <img src="images/FishPondMiniFeltBannerSample.jpg" width="150px" alt="Mini Felt Banner in the shape of a pond, featuring koi fish, lily pads, and lotus flowers">
+                    <h3>Stage 4 Technology Mandatory</h3>
+                    <p>Year 7 Textiles Technology Unit: Mini Felt Banner</p>
+                </div>
+                <div class="project-card">
+                    <img src="images/CharcuterieBoardSample.jpg" width="150px" alt="Mixed charcuterie board featuring various homemade dips, sliced vegetables, crackers, ">
+                    <h3>Stage 4 Technology Mandatory</h3>
+                    <p>Year 8 Food Technology Unit: Charcuterie Board Food Practical</p>
+                </div>
+                <div class="project-card">
+                    <img src="images/PersonalisedPyjamaSetSample.jpg" width="150px" alt="Pyjama set featuring bee and sunflower printed shorts, and a white T-shirt with a bee themed screen print design">
+                    <h3>Stage 5 Textile Technology</h3>
+                    <p>Year 9 Textile Technology Unit: Personalised Pyjama Set</p>
+                </div>
+                <div class="project-card">
+                    <img src="images/AncientGrainsSample.jpg" width="150px" alt="Sample of Ancient Grain project, featuring Sorgam Flour Scones">
+                    <h3>Stage 5 Food Technology</h3>
+                    <p>Year 10 Food Technology Unit: Food Challenge: Ancient Grains</p>
+                </div>
+                <div class="project-card">
+                    <img src="images/MedievalCostumeSample.jpg" width="150px" alt="Medieval Costume Group Project">
+                    <h3>Stage 6 Textiles and Design</h3>
+                    <p>Year 11 Textiles and Design: Medieval Costume</p>
+                </div>
+                <div class="project-card">
+                    <img src="images/$10MealSample.jpg" width="150px" alt="$10 meal project: Soba">
+                    <h3>Stage 6 Food Technology</h3>
+                    <p>Year 12 Food Technology Unit: $10 Meals</p>
+                </div>
+            </div>
+         </section>
+    </main>
+</body>
+</html>
