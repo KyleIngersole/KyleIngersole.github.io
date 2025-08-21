@@ -163,7 +163,7 @@ nav a:focus-visible {
 }
 .profile-photo {
   display: block;                 /* Makes the image behave like a block element (so margin works) */
-  margin-left: 8px;              /* Centres the image horizontally */
+  margin-left: auto;              /* Centres the image horizontally */
   margin-right: auto;             /* Centres the image horizontally */
   width: 20%;                     /* Limits the image width to 35% of its container */
   border-radius: 8px;             /* Rounds the corners of the image slightly */
