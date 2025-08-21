@@ -1,0 +1,55 @@
+
+/*-------- Page Setup ---------*/
+body {
+    background-color: #fcf4fe;
+}
+
+footer {
+    background-color: #7d02a2;
+}
+
+/*-------- Text ---------*/
+h1 {
+    color: #fcf4fe;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #7d02a2;
+}
+
+
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.profile-text {
+    flex: 1;
+}
+
+
+
+/*-------- Images ---------*/
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.KLA-photo {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.project-card {
+    width: 300%;
+}
+
+.profile-photo {
+    width: 10%;
+    border-radius: 8px;
+}
+
+.inspirational-quote {
+    width: 30%;
+}

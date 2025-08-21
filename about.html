@@ -3,41 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Kyle Ingersole's Teaching Portfolio - About Me</title>
+    <link rel="stylesheet" href="starter.css">
 </head>
 <body>
     <!-- add heading, adjust colour to #7d02a2 -->
     <header>
-        <h1 style="color: #7d02a2;">Kyle's Teaching Portfolio - About Me</h1>
+        <h1>Kyle's Teaching Portfolio - About Me</h1>
     </header>
     <!-- Navigation menu section -->
     <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Me</a></li>
-            <li><a href="teaching.html">Teaching Practice</a></li>
-            <li><a href="projects.html">Project Showcase</a></li>
-            <li><a href="worksamples.html">Samples of Work</a></li>
-            <li><a href="contact.html">Contact Me</a></li>
-        </ul>
+        <div class="container">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="teaching.html">Teaching Practice</a></li>
+                <li><a href="projects.html">Project Showcase</a></li>
+                <li><a href="worksamples.html">Samples of Work</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+            </ul>
+        </div>
     </nav> 
     <!-- short introduction --> 
     <main>
     <!-- add fonts --> 
     <section>
-        <div style="font-family: Impact, Haettenscweiler, 'Aial Narrow Bold', sans-serif;">
-        <!-- section heading --> 
-        <h2>About Me</h2>
-        <!-- introduction --> 
-        <p>My name is <strong>Kyle</strong> and I am a <em>TAS</em> teacher studying at ACU Strathfield, majoring in Textiles and minoring in Food Technology.</p>
-        <p style="color: #7d02a2;"> These are my main teaching areas:</p>
-        <!-- add image of teaching area --> 
-        <img src="Images/TeachingAreas.png" width="750px" alt="Infographic showing main teaching areas: Textiles and Design, Food Technology, Design and Technology, and Technology Mandatory">
-        </div>
-        <!-- add paragraphs --> 
-        <p>I have had the opportunity to teach at a variety of schools in my local area during my placements, including St Leo's Catholic College, Mercy College Chatswood, and Glenwood High School. During these experiences I have had the opportunity to teach a variety of classes in years 7-11, in subjects across TAS including Textiles Technology, Textiles and Design, Food Technology, Design and Technology, Technology Mandatory (Industrial Arts, Computing, Home Economics), alongside Engineering. </p>
-        <p>Out of all my teaching areas, Textiles is my heart and soul, and has been a main form of art and expression that I have utilised in my own secondary and tertiary education, alongside in my personal time. This includes projects like; art quilts, medieval dresses, felt banners, plush toys, backpacks, and textile art.</p>
-        <p>Following this link, you will find a CAD portfolio I have developed</p> <a href="https://www.canva.com/design/DAFkiMU0hBM/-lT5dobl8AV5udKwOxkt9w/edit?utm_content=DAFkiMU0hBM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank">here</a>
+        <article class="profile">
+            <div class="profile-text">
+                <!-- section heading --> 
+                <h2>About Me</h2>
+                <!-- introduction --> 
+                <p>My name is <strong>Kyle</strong> and I am a <em>TAS</em> teacher studying at ACU Strathfield, majoring in Textiles and minoring in Food Technology.</p>
+                <p style="color: #7d02a2;"> These are my main teaching areas:</p>
+                <!-- add image of teaching area --> 
+            <div class="KLA-photo">
+                <img src="Images/TeachingAreas.png" alt="Infographic showing main teaching areas: Textiles and Design, Food Technology, Design and Technology, and Technology Mandatory">
+            </div>
+        </article>
     </section>
     <!-- overview of placement history -->
     <section>
@@ -74,5 +76,10 @@
         </table>
     </section>
     </main>
+    <footer>
+        <div class="container">
+            <p style="color: #fcf4fe;"> &copy; 2025 Kyle Ingersole. All rights reserved</p>
+        </div>
+    </footer>
 </body>
 </html>
