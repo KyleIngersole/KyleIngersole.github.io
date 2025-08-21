@@ -169,11 +169,11 @@ nav a:focus-visible {
   border-radius: 8px;             /* Rounds the corners of the image slightly */
 }
 .KLA-photo {
-    width: 100%;
-    border-radius: 8px;
+    width: 100%;                  /* resizes maximum width of this image within its section */
+    border-radius: 8px;           /* Rounds the corners of the image slightly */
 }
 .inspirational-quote {
-    width: 30%;
+    width: 30%;                   /* resizes maximum width of this image within its section */
 }
 .main-photo { 
   max-width: 250px;       /* resizes maximum width of these images within the sections */
