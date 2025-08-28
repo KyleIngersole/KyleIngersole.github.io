@@ -20,16 +20,51 @@
                 <li><a href="teaching.html">Teaching Practice</a></li>
                 <li><a href="projects.html">Project Showcase</a></li>
                 <li><a href="worksamples.html">Samples of Work</a></li>
-                <li><a href="contact.html">Contact Me</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a class="active" href="contact.html">Contact Me</a></li>
             </ul>
         </div>
     </nav>
     <!-- this is the main content area for the page, in line with Semantic HTML -->
     <main>
         <!-- This is the section for... -->
-         <section>
-            <p>Add some text here</p>
+         <section class="section">
+            <h2>Get in touch</h2>
+            <form id="contact-form" action="#" method="post" autocomplete="on">
+                <fieldset>
+                    <legend>Your details</legend>
+                    <!-- Form text input for full name -->
+                    <label for="name">Full Name</label>
+                    <input id="name" name="name" type="text" placeholder="Bob Reynolds" required minlength="6">
+                    <!-- Form text input for email address -->
+                    <label for="email">Email Address</label>
+                    <input id="email" name="email" type="email" placeholder="name@example.com" required autocomplete="email">
+                    <!-- Form checkbox input for Reason for contact -->
+                    <legend>Reason for contact (choose all that apply):</legend>
+                    <input id="rason-collab" name="reason" type="checkbox" value="collaboration">
+                    <label for="reason-collab">Interested in collaborating</label>
+                    <input id="rason-work" name="reason" type="checkbox" value="work">
+                    <label for="reason-work">Availability for work</label>
+                    <input id="rason-other" name="reason" type="checkbox" value="other">
+                    <label for="reason-other">Other</label>
+                    <!-- Form text input for Message -->
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" type="message" placeholder="How can I help?" required minlength="8"></textarea>
+                    <!-- honeypot anti spam field -->
+                    <input type="text" name="honey" tableindex="-1" aria-hidden="true" style="position:absolute;left:-9999px;">
+                    <!-- Button tag used for input, in line with semantic HTML -->
+                    <button type="submit">Send</button>
+                </fieldset>
+            </form>
          </section>
+         <!-- This is the section for links to socials -->
+          <section class="section">
+            <h2 id="socials">Add me on Socials</h2>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/kyle-ingersole-32145835a/" rel="noopener">LinkedIn</a></li>
+            </ul>
+          </section>
     </main>
     <footer>
         <div class="container">
