@@ -198,13 +198,13 @@ table {
   font-family: Arial, sans-serif;     /* Table font */
 }
 th, td {
-  border: 1px solid #7d02a2;             /* Dark grey background for nav bar */
+  border: 1px solid #7d02a2;             /* Dark purple background for nav bar */
 ;   /* Light grey cell borders */
   padding: 10px 12px;         /* Space inside cells */
   text-align: left;           /* Aligns text to the left */
-}
+} 
 thead {
-  background-color: #bb79ce; /* Light grey header background */
+  background-color: #bb79ce; /* Light purple header background */
 }
 th {
   color: #7d02a2;        /* primary colour */
@@ -230,11 +230,6 @@ tr:nth-child(even) {
   box-shadow: 1px 2px 4px #7d02a2;
 }
 .project-card h3 {
-  margin-top: 10px;
-  font-size: 1.1rem;
-  color: #7d02a2;
-}
-.project-card h3 {
   margin-top: 10px;     /* Space above heading */
   font-size: 1.1rem;    /* Slightly larger heading text */
   color: #7d02a2;     
@@ -247,7 +242,7 @@ tr:nth-child(even) {
   gap: var(--spacing);                                            /* Space between grid items */
 }
 .card {
-  background: #fff;             /* White background */
+  background: #fcf4fe ;             /* White background */
   border-radius: var(--radius);   /* Rounded corners */
   box-shadow: var(--shadow);      /* Soft shadow */
   overflow: hidden;               /* Hides overflowing content */
