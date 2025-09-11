@@ -7,4 +7,5 @@ This contains the following pages:
 - Resources
 - Resume
 - Contact Me
+
 These pages feature interactive elements, including downloadable files, links to relevant sites and resources, and a contact method. 
